@@ -3,6 +3,18 @@
 ## Description
 This is a template project for x86_64 assembly language. It is intended to be used as a starting point for other projects. It contains a simple Makefile and a simple main program that calls a function in the assembly code. The assembly code is in the file `main.S`. The main program is in the file `main.c`. The Makefile is in the file `Makefile`. The Makefile is configured to build the assembly code into an object file and the main program into an executable file. The executable file is named `main`. The Makefile is also configured to clean up the project directory by removing the object file and the executable file. The Makefile is also configured to run the executable file.
 
+### Project Structure
+```text
+.
+├── .vscode
+│   └── tasks.json
+├── .gitignore
+├── main.c
+├── main.S
+├── Makefile
+└── README.md
+```
+
 ## Usage
 ### Makefile
 * `make` - Build the project
