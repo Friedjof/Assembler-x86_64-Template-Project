@@ -26,8 +26,8 @@ You might need to modify the gcc build arguments in the Makefile to suit your ne
 
 ## Installation
 For this Project, you will need to install the following software:
-* GNU Make
-* GCC
+* GNU Make (build system)
+* GCC (compiler)
 * GDB (debugger)
 
 ### Debian/Ubuntu
