@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start",
+            "type": "shell",
+            "command": "cd ${workspaceRoot} && make && ./main && rm -f main",
+            "group": "build",
+            "problemMatcher": []
+        }, {
+            "label": "gdb-compile",
+            "type": "shell",
+            "command": "cd ${workspaceRoot} && make gdb && gdb ./gdb && rm -f gdb",
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "error"
+                }
+            }
+        }
+    ]
+}
